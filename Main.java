@@ -286,7 +286,7 @@ class Main {
     int turn = 0;
 
     //generates random number of stones between 15 and 30
-    int startStones = random.nextInt(15,30);
+    int startStones = random.nextInt(16) + 15;
     System.out.println("Number of Stones: " + startStones);
     while(startStones > 0){
       
@@ -363,7 +363,7 @@ class Main {
     
     int turn = 0;
     //generates random number of stones between 15 and 30
-    int startStones = random.nextInt(15,30);
+    int startStones = random.nextInt(16) + 15;
     System.out.println("Number of Stones: " + startStones);
     
     while(startStones > 0){
